@@ -5,7 +5,7 @@ Cipolla algorithm made on Java.
 - [ ] Add Miller–Rabin primality test
 
 ## System requirements
-Java version 23.0.1  
+Java version 24.0.1  
 
 ## Compilation
 
@@ -15,15 +15,13 @@ Java version 23.0.1
 
 2. Make sure you have javac.exe compiler `C:\Users\USER\.jdks\jdk-{version}\bin\javac.exe`
 
-3. Download latest [JavaFx](https://gluonhq.com/products/javafx/) library and extract contents whereever it is reachable.
-
-4. To compile, open command line in __source code directory__ and write  
+3. To compile, open command line in __source code directory__ and write  
    `javac.exe  Main.java`
    
     - If you have problems with javac.exe, try to write __absolute path__ to javac.exe (see p.2)
       
 
-6. After compilation run `Main` file:
+4. After compilation run `Main` file:
    `java Main`
 
 ### Linux (Debian/Ubuntu)
