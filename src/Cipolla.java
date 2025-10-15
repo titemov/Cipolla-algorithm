@@ -48,7 +48,6 @@ public class Cipolla {
                 break;
             }
         }
-
         if(ans!=-1) {
             System.out.println("\n-------------- ANSWER --------------");
             System.out.println("X={" + ans + ", " + Main.modulo((p - ans), p) + "}; " + ans + "^2 ≡ " + n + " (mod " + p + ")");

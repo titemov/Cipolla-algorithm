@@ -46,7 +46,7 @@ public class FiniteField {
         return intArray;
     }
 
-    public boolean quadraticResidueCheck(int num){
+    public boolean quadraticResidueCheck(long num){
         boolean isInArray=false;
 
         int[] tempArray = new int[this.p];
