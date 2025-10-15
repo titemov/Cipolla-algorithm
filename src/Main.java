@@ -16,7 +16,7 @@ public class Main {
 
         int p=13;
         int n=10;
-        int k=2;
+        int k=3;
 
         try {
             System.out.print("Enter prime number: ");

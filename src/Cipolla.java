@@ -24,7 +24,7 @@ public class Cipolla {
     public static void algorithm(int n, int p, int k){
         long a;
         int legendre;
-        long ans=0;
+        long ans=-1;
         FiniteField finiteField = new FiniteField(p);
 
         for(int i=0;i<k;i++) {
@@ -48,7 +48,12 @@ public class Cipolla {
                 break;
             }
         }
-        System.out.println("\n-------------- ANSWER --------------");
-        System.out.println("X={"+ans+", "+Main.modulo((p-ans),p)+"}; "+ans+"^2 ≡ "+n+" (mod "+p+")");
+
+        if(ans!=-1) {
+            System.out.println("\n-------------- ANSWER --------------");
+            System.out.println("X={" + ans + ", " + Main.modulo((p - ans), p) + "}; " + ans + "^2 ≡ " + n + " (mod " + p + ")");
+        }else{
+            System.out.println("\nNo answer. Too few attempts");
+        }
     }
 }
