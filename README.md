@@ -1,5 +1,5 @@
 # Cipolla-algorithm
-Cipolla algorithm made on Java.
+Cipolla's algorithm made on Java.
 
 ## TODO:
 - [ ] Add Miller–Rabin primality test
